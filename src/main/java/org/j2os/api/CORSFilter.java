@@ -5,7 +5,7 @@ import jakarta.ws.rs.container.ContainerResponseContext;
 import jakarta.ws.rs.container.ContainerResponseFilter;
 import jakarta.ws.rs.ext.Provider;
 /*
-    CORSFilter for Access-Control-Allow-Origin
+    CORSFilter
  */
 @Provider
 public class CORSFilter implements ContainerResponseFilter {
